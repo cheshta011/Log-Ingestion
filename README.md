@@ -35,11 +35,17 @@ A full-stack developer tool built with **Node.js** and **React** to ingest, pers
 
 root/
 ├── backend/
+
 │   ├── server.js
+
 │   ├── logs.json
+
 │   ├── utils/
+
 │   ├── routes/
+
 │   └── validators/
+
 ├── client/
 │   └── src/
 │       ├── components/
