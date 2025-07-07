@@ -57,22 +57,22 @@ git clone [https://github.com/your-username/log-query-system.git]   (https://git
 
 2. Backend (Node.js)
 
-cd server
+  cd server
 
-npm install
+  npm install
 
-nodemon server.js
+  nodemon server.js
 
-Runs on: http://localhost:5000
+  Runs on: http://localhost:5000
 
 
-Endpoints:
+  Endpoints:
 
-POST /logs – Ingest a log
+  POST /logs – Ingest a log
 
-GET /logs – Query logs with filters
+  GET /logs – Query logs with filters
 
-Note: Logs are stored in logs.json. The file is created if not present.
+  Note: Logs are stored in logs.json. The file is created if not present.
 
 3. Frontend (React)
 
@@ -88,21 +88,33 @@ Note: Logs are stored in logs.json. The file is created if not present.
 
 {
 "level": "error",
+
 "message": "Failed to connect to database",
+
 "resourceId": "server-1234",
+
 "timestamp": "2023-07-06T15:00:00Z",
+
 "traceId": "abc-xyz-123",
+
 "spanId": "span-456",
+
 "commit": "5e5342f",
+
 "metadata": {
+
 "parentResourceId": "server-5678",
+
 }
+
 }
 
 🎯 Design Decisions & Assumptions
 
 Used the Node fs module for persistence to keep full control over read/write.
+
 Used in-memory filtering with .filter, .includes, .sort to follow assignment goals.
+
 Vite + React for speed and simplicity.
 Timestamp format assumed to be ISO 8601 for parsing and comparisons.
 
