@@ -1,0 +1,29 @@
+/* Add this to your CSS file */
+.levelBadge {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+}
+
+.level-error {
+  background-color: #fff1f2;
+  color: #f43f5e;
+}
+
+.level-warn {
+  background-color: #fff8dd;
+  color: #facc15;
+}
+
+.level-info {
+  background-color: #f1faff;
+  color: #009ef7;
+}
+
+.level-debug {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
