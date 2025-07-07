@@ -58,9 +58,13 @@ git clone [https://github.com/your-username/log-query-system.git]   (https://git
 2. Backend (Node.js)
 
 cd server
+
 npm install
+
 nodemon server.js
+
 Runs on: http://localhost:5000
+
 
 Endpoints:
 
@@ -73,8 +77,11 @@ Note: Logs are stored in logs.json. The file is created if not present.
 3. Frontend (React)
 
    cd client
+   
    npm install
+   
    npm run dev
+   
    Runs on: http://localhost:5173
 
 🧪 Sample Log Format
