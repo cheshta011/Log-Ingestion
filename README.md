@@ -34,6 +34,7 @@ A full-stack developer tool built with **Node.js** and **React** to ingest, pers
 ## 📁 Folder Structure
 
 root/
+
 ├── backend/
 
 │   ├── server.js
@@ -47,10 +48,15 @@ root/
 │   └── validators/
 
 ├── client/
+
 │   └── src/
+
 │       ├── components/
+
 │       ├── pages/
+
 │       └── services/
+
 ├── README.md
 
 
