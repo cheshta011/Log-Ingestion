@@ -35,19 +35,18 @@ A full-stack developer tool built with **Node.js** and **React** to ingest, pers
 
 root/
 ├── backend/
-│ ├── server.js
-│ ├── logs.json
-│ └── utils/
-| |**routes/
-| |**validators
+│   ├── server.js
+│   ├── logs.json
+│   ├── utils/
+│   ├── routes/
+│   └── validators/
 ├── client/
-│ ├── src/
-│ │ ├── components/
-| | |── pages/
-│ │ ├── services/
-│ │ └── App.jsx
-│ └── index.html
-└── README.md
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── services/
+├── README.md
+
 
 ## ⚙️ Setup Instructions
 
